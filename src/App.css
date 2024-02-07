@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  background-image: url("pictures/background.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.background-image {
+  background-image: url('pictures/background.png'); /* Pfad zum Hintergrundbild */
+  background-size: cover; /* Hintergrundbild wird auf die gesamte Breite und Höhe des Elements gestreckt */
+  background-position: center; /* Zentriert das Hintergrundbild */
+  background-repeat: repeat-y;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Weitere Stile wie Höhe, Breite, etc. können nach Bedarf hinzugefügt werden */
+}
+
+.my-text{
+  font-family: MeineSchriftart;
+  color: #800020;
+  font-weight: bold;
+  font-size: 650%;
+  padding-top: 10%;
+  position: relative; /* Stellen Sie sicher, dass das Element positioniert ist */
+  z-index: 1;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .background-image {
+    background-repeat: repeat; /* Wiederholen Sie das Hintergrundbild sowohl horizontal als auch vertikal */
+  }
+}
+
+@font-face {
+  font-family: 'MeineSchriftart';
+  src: url('./font/GreatVibes-Regular.ttf') format('truetype');
+}
