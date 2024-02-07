@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/My-Valentine-Template/static/css/main.40b9fb22.css",
+    "main.js": "/My-Valentine-Template/static/js/main.7ee0674c.js",
+    "static/js/592.753c7216.chunk.js": "/My-Valentine-Template/static/js/592.753c7216.chunk.js",
+    "static/media/Audio.mp3": "/My-Valentine-Template/static/media/Audio.5db0c6efcfb75d6f3355.mp3",
+    "static/media/background.png": "/My-Valentine-Template/static/media/background.683a397243aa48239683.png",
+    "static/media/VID-20240122-WA0000.mp4": "/My-Valentine-Template/static/media/VID-20240122-WA0000.d693ff39b7c5e0fa4bbf.mp4",
+    "static/media/Sample.png": "/My-Valentine-Template/static/media/Sample.7be896a84a7d34dc0f9f.png",
+    "static/media/heart.png": "/My-Valentine-Template/static/media/heart.45908e67eadd943f78e4.png",
+    "static/media/GreatVibes-Regular.ttf": "/My-Valentine-Template/static/media/GreatVibes-Regular.9f3b78d95140c3425300.ttf",
+    "index.html": "/My-Valentine-Template/index.html",
+    "main.40b9fb22.css.map": "/My-Valentine-Template/static/css/main.40b9fb22.css.map",
+    "main.7ee0674c.js.map": "/My-Valentine-Template/static/js/main.7ee0674c.js.map",
+    "592.753c7216.chunk.js.map": "/My-Valentine-Template/static/js/592.753c7216.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40b9fb22.css",
+    "static/js/main.7ee0674c.js"
+  ]
+}
