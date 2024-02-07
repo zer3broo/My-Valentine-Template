@@ -68,6 +68,7 @@ To deploy the app to github pages, you need to adjust the `homepage` in the `pac
 }
 ```
 Than run the following commands:
+
 ```npm run build```
 
 ```gh-pages -d build```
