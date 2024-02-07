@@ -68,5 +68,9 @@ To deploy the app to github pages, you need to adjust the `homepage` in the `pac
 }
 ```
 Than run the following command:
-```bash gh-pages -d build```
+```gh-pages -d build```
+
+If you receive an ProcessError: fatal: A branch named 'gh-pages' already exists. Run the following command:
+```node node_modules/gh-pages/bin/gh-pages-clean.js```
+
 
